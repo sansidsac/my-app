@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+
+body.light-mode {
+  background-color: rgb(3, 141, 95);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light-mode .navbar {
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.light-mode .btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 141, 95);
+  border-color: rgb(0, 119, 73);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light-mode .btn:hover {
+  background-color: rgb(3, 141, 95);
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }
 
-.App-link {
-  color: #61dafb;
+.light-mode h1, .light-mode h2 {
+  color: rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-mode textarea {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.light-mode .p1{
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode {
+  background-color: rgb(20, 0, 39);
+}
+
+.dark-mode .navbar {
+  background-color:  rgb(23, 23, 26);
+  color:  rgb(255, 255, 255);
+}
+
+.dark-mode .btn {
+  background-color: rgb(23, 23, 26);
+  color: rgb(255, 255, 255);
+  border-color: rgb(100, 100, 100);
+}
+
+.dark-mode .btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 23, 26);
+  border-color: rgb(50, 50, 50);
+}
+
+.dark-mode h1, .dark-mode h2 {
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode textarea {
+  background-color: rgb(23, 23, 26);
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode p{
+  color: rgb(255, 255, 255);
+}
+
+.alert-height{
+  height: 20px;
 }
